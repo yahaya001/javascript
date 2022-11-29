@@ -12,3 +12,7 @@ let student4 = new Student('habeeb', 'civil engineering', 'estate design')
 let student5 = new Student('usman', 'future tech', 'machine learnig')
 let student6 = new Student('isah1190', 'information tech', 'frontend dev')
 let student7 = new Student('sani', 'information tech', 'aws & railway.app')
+
+for (key in Student){
+    console.log(key)
+}
