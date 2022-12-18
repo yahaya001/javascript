@@ -2,6 +2,9 @@ function Student(name, depart, tech){
     this.name = name;
     this.depart = depart;
     this.tech = tech;
+    this.FullName = function (){
+        return this.name+""+this.depart
+    }
 }
 
 
@@ -13,6 +16,5 @@ let student5 = new Student('usman', 'future tech', 'machine learnig')
 let student6 = new Student('isah1190', 'information tech', 'frontend dev')
 let student7 = new Student('sani', 'information tech', 'aws & railway.app')
 
-for (key in Student){
-    console.log(key)
-}
+//console.log(student1.FullName())0`
+console.log(Student.prototype)
