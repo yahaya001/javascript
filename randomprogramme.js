@@ -58,8 +58,12 @@ let p2 = {
     name:'juliana'
 }
 let getThis = ()=>this
-console.log(getThis)
+//console.log(getThis)
 //call and apply are almost similar except apply accept a list of array in--
 //its second argument instead of simple var or string
 //console.log(query.call(p2, ' hello '))
-console.log(query.apply(p1, [' hello ']))
+//console.log(query.apply(p1, [' hello ']))
+
+
+
+
